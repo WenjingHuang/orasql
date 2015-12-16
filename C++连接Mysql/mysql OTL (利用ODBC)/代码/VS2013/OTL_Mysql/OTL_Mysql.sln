@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OTL_Mysql", "OTL_Mysql\OTL_Mysql.vcxproj", "{CB137D60-99AF-4DCA-B1A6-03C4570CED4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB137D60-99AF-4DCA-B1A6-03C4570CED4B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB137D60-99AF-4DCA-B1A6-03C4570CED4B}.Debug|Win32.Build.0 = Debug|Win32
+		{CB137D60-99AF-4DCA-B1A6-03C4570CED4B}.Release|Win32.ActiveCfg = Release|Win32
+		{CB137D60-99AF-4DCA-B1A6-03C4570CED4B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

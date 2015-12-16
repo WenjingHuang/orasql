@@ -1,0 +1,8 @@
+用rpm安装mysql5.6，C++连接mysql，/usr/lib -lmysqlclient找不到的解决办法 
+方法一：
+1、查看/usr/include下有没有mysql文件
+   查看/usr/lib/下有没有mysql文件，没有可以这样做，
+    ln -s /usr/lib64 /usr/lib/mysql
+2、gcc -I/usr/include/mysql mysqlconn.c -L/usr/lib/mysql -lmysqlclient -o mysqlconn
+方法二：
+    gcc -I/usr/include/mysql mysqlconn.c -L/usr/lib64 -lmysqlclient -o mysqlconn

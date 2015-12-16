@@ -1,0 +1,7 @@
+在C应用程序中提取数据,一般需要下面4个步骤
+（1）执行查询；
+（2）提取数据；
+（3）处理数据；
+（4）必要的清理工作。
+使用mysql_query来发送SQL语句，然后，你使用mysql_store_result或mysql_use_result来提取数据，具体使用哪个函数取决于你想如何提取数据。接着，你将使用一系列mysql_fetch_row调用来处理数据。最后，使用mysql_free_result释放查询占用的内存资源。
+mysql_use_result和mysql_store_result的区别主要在于，想一次返回一行数据，就使用mysql_use_result。想一次返回所有的结果，使用mysql_store_result.

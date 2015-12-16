@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/12/15 9:15:31。
+     1>项目“F:\EclipseC++WorkSpace\OTL_Oracle\OTL_Oracle\OTL_Oracle.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\software\vs2013\VC\bin\CL.exe /c /IC:\software\Oracle11g\product\11.2.0\dbhome_1\OCI\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt conn_oracle.cpp
+         conn_oracle.cpp
+       Link:
+         C:\software\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\EclipseC++WorkSpace\OTL_Oracle\Debug\OTL_Oracle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\EclipseC++WorkSpace\OTL_Oracle\Debug\OTL_Oracle.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\EclipseC++WorkSpace\OTL_Oracle\Debug\OTL_Oracle.lib" /MACHINE:X86 Debug\conn_oracle.obj
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIInitialize，该符号在函数 "public: static int __cdecl otl_conn::initialize(int)" (?initialize@otl_conn@@SAHH@Z) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIHandleAlloc，该符号在函数 "public: int __thiscall otl_conn::server_attach(char const *)" (?server_attach@otl_conn@@QAEHPBD@Z) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIHandleFree，该符号在函数 "public: virtual __thiscall otl_var::~otl_var(void)" (??1otl_var@@UAE@XZ) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIDescriptorFree，该符号在函数 "public: virtual __thiscall otl_var::~otl_var(void)" (??1otl_var@@UAE@XZ) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIEnvInit，该符号在函数 "public: int __thiscall otl_conn::server_attach(char const *)" (?server_attach@otl_conn@@QAEHPBD@Z) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIServerAttach，该符号在函数 "public: int __thiscall otl_conn::server_attach(char const *)" (?server_attach@otl_conn@@QAEHPBD@Z) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIServerDetach，该符号在函数 "public: int __thiscall otl_conn::server_detach(void)" (?server_detach@otl_conn@@QAEHXZ) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCISessionBegin，该符号在函数 "public: int __thiscall otl_conn::session_begin(char const *,char const *,int,int)" (?session_begin@otl_conn@@QAEHPBD0HH@Z) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCISessionEnd，该符号在函数 "public: int __thiscall otl_conn::session_end(void)" (?session_end@otl_conn@@QAEHXZ) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIErrorGet，该符号在函数 "public: void __thiscall otl_conn::error(class otl_exc &)" (?error@otl_conn@@QAEXAAVotl_exc@@@Z) 中被引用
+     1>conn_oracle.obj : error LNK2019: 无法解析的外部符号 _OCIAttrSet，该符号在函数 "public: int __thiscall otl_conn::server_attach(char const *)" (?server_attach@otl_conn@@QAEHPBD@Z) 中被引用
+     1>F:\EclipseC++WorkSpace\OTL_Oracle\Debug\OTL_Oracle.exe : fatal error LNK1120: 11 个无法解析的外部命令
+     1>已完成生成项目“F:\EclipseC++WorkSpace\OTL_Oracle\OTL_Oracle\OTL_Oracle.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.34
